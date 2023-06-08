@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여러가지 태그</title>
+</head>
+<body>
+<h3> H 태그</h3>
+<h1>H태그는 글자의 크기를 나타내는 태그 -h1</h1>
+<h2>H태그는 글자의 크기를 나타내는 태그 -h2</h2>
+<h3>H태그는 글자의 크기를 나타내는 태그 -h3</h3>
+<h4>H태그는 글자의 크기를 나타내는 태그 -h4</h4>
+<h5>H태그는 글자의 크기를 나타내는 태그 -h5</h5>
+<h6>H태그는 글자의 크기를 나타내는 태그 -h6</h6>  
+
+<hr color = "green"; width="30%" align="left">
+
+<h3> A 태그 - 페이지 이동 (링크)</h3>
+<a href="../index.html" target="_blank">index페이지 이동(새로운창) : 상대경로 </a> <br><br>
+<a href="http://127.0.0.1:5501/1/tag_h1.html" target="_self">index페이지 이동( 현재창) : 절대경로 </a><br><br>
+
+<hr color = "green"; width="30%" align="left">
+
+<h3> ul / ol 태그</h3>
+<div>ul태그 : 순서 없는 목록(블락태그) -> list style-type : disc(원-색o) / cicle(원-색x) / square (네모) / none</div>
+<ul style="list-style-type:disc;">
+    <li>apple</li>
+    <li>orange</li>
+    <li>banana</li>
+    <li>lemon</li>
+</ul>
+
+<div>ol태그 : 순서 있는 목록(블락태그) </div>
+<ol style>
+    <li>apple</li>
+    <li>orange</li>
+    <li>banana</li>
+    <li>lemon</li>
+</ol> <br>
+
+<div>Ex)</div>
+<ul style="list-style-type: none; display: inline-flex;">
+    <li>| 회원가입 | </li>
+    <li> 로그아웃 | </li>
+    <li> 회사소개 | </li>
+    <li> 약도 | </li>
+    <li> 로그인 | </li>
+    <li> 장바구니 | </li>
+    
+    </ul>
+
+<hr color = "green"; width="30%" align="left">
+
+<h3>table 태그 </h3>
+<pre>
+    rowspan : 정보를 세로로 읽고 싶을때 : 가로방향으로 셀이 병합(행병합)
+    colspan : 정보를 가로로 읽고 싶을때 : 세로방향으로 셀이 병합(열병합)
+    
+</pre>
+<table border="1px">
+<tr>
+    <th>첫 행에서 컬럼명을 넣을때 사용(굵게,중앙)
+        <td>
+            내용 및 행
+        </td>
+    </th>
+</tr>
+</table><br><br>
+
+<div>Ex)</div>
+
+<table border = "1px">
+    <tr><th align = "center">이력서</th></tr>
+    <tr><th>■인적사항</th> <th>■취업희망직무</th></tr>
+</table>
+
+</body>
+</html>
